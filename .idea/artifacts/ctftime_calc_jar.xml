@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ctftime_calc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ctftime_calc_jar</output-path>
+    <root id="archive" name="ctftime_calc.jar">
+      <element id="module-output" name="ctftime_calc" />
+    </root>
+  </artifact>
+</component>
