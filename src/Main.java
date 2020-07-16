@@ -1,20 +1,11 @@
-import javax.swing.*;
-
-import static javax.swing.UIManager.getSystemLookAndFeelClassName;
+import com.github.weisj.darklaf.LafManager;
+import com.github.weisj.darklaf.theme.DarculaTheme;
 
 public class Main {
     public static void main(String[] args) {
-        try {
-            UIManager.setLookAndFeel(getSystemLookAndFeelClassName());
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (UnsupportedLookAndFeelException e) {
-            e.printStackTrace();
-        }
+
+        LafManager.install(new DarculaTheme());
+
         App app = new App("CTFtime points calculator");
 
         app.setLocationRelativeTo(null);
