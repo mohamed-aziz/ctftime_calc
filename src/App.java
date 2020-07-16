@@ -21,7 +21,7 @@ public class App extends JFrame {
         super(title);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(mainPanel);
-        this.setPreferredSize(new Dimension(500, 200));
+        this.setPreferredSize(new Dimension(500, 250));
         this.pack();
         for (JSpinner c:  new ArrayList<JSpinner>(){{add(tpts); add(bpts); add(weight);}}) {
             c.setModel(

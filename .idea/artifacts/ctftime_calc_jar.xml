@@ -3,6 +3,15 @@
     <output-path>$PROJECT_DIR$/out/artifacts/ctftime_calc_jar</output-path>
     <root id="archive" name="ctftime_calc.jar">
       <element id="module-output" name="ctftime_calc" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jna-5.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/svg-salamander-1.1.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/darklaf-core-2.4.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/darklaf-theme-2.4.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/darklaf-utils-2.4.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/darklaf-windows-2.4.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/darklaf-native-utils-2.4.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/darklaf-platform-base-2.4.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/darklaf-property-loader-2.4.1-SNAPSHOT.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
